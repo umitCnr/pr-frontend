@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import './write.css';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import fish from './../icons/fish.jpg';
 import omurgasiz from './../icons/omurgasiz.jpg';
 import herb from './../icons/yosun.jpg';
@@ -28,7 +27,7 @@ const WriteNew = () => {
                     <Card className={'card'}  style={{ width: '20rem' }}>
                         <Card.Img className={'fish-img'} variant="top" src={omurgasiz} />
                         <Card.Body>
-                            <Card.Title className={'title'}>Akvaryum Balıkları</Card.Title>
+                            <Card.Title className={'title'}>Omurgasız Canlılar</Card.Title>
                             <Card.Text className="text-center">
                                 Akvaryum balıkları, su altında yaşam süren ve çeşitli renk, şekil ve boyutlara sahip olan büyüleyici canlılardır.
                             </Card.Text>
@@ -39,7 +38,7 @@ const WriteNew = () => {
                     <Card className={'card'}  style={{ width: '20rem' }}>
                         <Card.Img className={'fish-img'} variant="top" src={herb} />
                         <Card.Body>
-                            <Card.Title className={'title'}>Akvaryum Balıkları</Card.Title>
+                            <Card.Title className={'title'}>Akvaryum Bitkileri</Card.Title>
                             <Card.Text className="text-center">
                                 Akvaryum balıkları, su altında yaşam süren ve çeşitli renk, şekil ve boyutlara sahip olan büyüleyici canlılardır.
                             </Card.Text>

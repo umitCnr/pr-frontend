@@ -1,6 +1,6 @@
 .main {
     display: flex;
-    background-image: url("./../icons/son.jpg");
+    background-image: url("./../icons/deep.jpg");
     background-size: cover; /* Arka plan resmini tamamen kapsar */
     background-position: center; /* Resmi ortalar */
     background-repeat: no-repeat; /* Tekrar etmez */
@@ -8,13 +8,12 @@
     height: 65vh;
     margin-left: 1.5%;
     margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
-
 }
 
 .main:hover{
-    transform: scale(1.002);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
@@ -23,6 +22,7 @@
     max-width: 70%;
     margin-top: 70px;
     padding: 70px;
+    margin-left: -20px;
 }
 
 .fish-img {
@@ -31,7 +31,6 @@
     object-fit: cover;
     border-radius: 5px 5px 20px 20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
 }
 
 
@@ -40,12 +39,12 @@
     border-radius: 5px;
     padding:10px;
     transition: transform 0.4s ease-in-out;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background: linear-gradient(to top, blue, white);
 }
 
 .card:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .text-center {
