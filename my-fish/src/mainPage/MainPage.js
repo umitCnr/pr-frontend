@@ -3,7 +3,6 @@ import React, {useState} from "react";
 import {Link} from "react-router-dom";
 
 
-
 const MainPage = () => {
     const [selectFish,setSelectFish] = useState(false);
 
@@ -17,7 +16,7 @@ const MainPage = () => {
                 <div className="App">
                     <h1 className={"baslik"}>My Fish</h1>
                     <div className={"kind"}>
-                        <button className={"bir"} onClick={fishArray}>/>Balıklar</button>
+                        <button className={"bir"} onClick={fishArray}>Balıklar</button>
                         {selectFish && (
                             <ul className={"main-item"}>
                                 <Link  className="link-item" to="/saltfish">Tuzlu Su</Link>

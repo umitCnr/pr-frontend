@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card';
 import fish from './../icons/fish.jpg';
 import omurgasiz from './../icons/omurgasiz.jpg';
 import herb from './../icons/yosun.jpg';
+import { Button } from 'primereact/button';
 
 const WriteNew = () => {
 
@@ -20,6 +21,7 @@ const WriteNew = () => {
                             <Card.Text className="text-center">
                                 Akvaryum balıkları, su altında yaşam süren ve çeşitli renk, şekil ve boyutlara sahip olan büyüleyici canlılardır.
                             </Card.Text>
+                            <button  className="custom-button" >Daha Fazlası</button>
                         </Card.Body>
                     </Card>
                 </div>
@@ -31,6 +33,7 @@ const WriteNew = () => {
                             <Card.Text className="text-center">
                                 Akvaryum balıkları, su altında yaşam süren ve çeşitli renk, şekil ve boyutlara sahip olan büyüleyici canlılardır.
                             </Card.Text>
+                            <button  className="custom-button" >Daha Fazlası</button>
                         </Card.Body>
                     </Card>
                 </div>
@@ -42,6 +45,7 @@ const WriteNew = () => {
                             <Card.Text className="text-center">
                                 Akvaryum balıkları, su altında yaşam süren ve çeşitli renk, şekil ve boyutlara sahip olan büyüleyici canlılardır.
                             </Card.Text>
+                            <button  className="custom-button" >Daha Fazlası</button>
                         </Card.Body>
                     </Card>
                 </div>
