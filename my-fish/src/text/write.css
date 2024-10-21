@@ -1,22 +1,15 @@
 .main {
     display: flex;
-    background-image: url("./../icons/deep.jpg");
-    background-size: cover; /* Arka plan resmini tamamen kapsar */
-    background-position: center; /* Resmi ortalar */
-    background-repeat: no-repeat; /* Tekrar etmez */
-    width: 97%;
+    background-image: url("./../icons/subtle-prism.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
     height: 65vh;
-    margin-left: 1.5%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 20px;
+
     transition: transform 0.3s ease-in-out;
 }
 
-.main:hover{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
-}
 
 .container {
     max-width: 70%;
@@ -27,7 +20,7 @@
 
 .fish-img {
     width: 100%;
-    height: 100%;
+    max-height: 70%;
     object-fit: cover;
     border-radius: 5px 5px 20px 20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -38,6 +31,8 @@
     border: none;
     border-radius: 5px;
     padding:10px;
+    height: 130%;
+    margin-top: -30%;
     transition: transform 0.4s ease-in-out;
     background: linear-gradient(to top, blue, white);
 }

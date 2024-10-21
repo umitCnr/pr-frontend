@@ -1,16 +1,14 @@
 .main-app{
     background-color: #FFFFF0;
+    margin-top: 0;
 }
 .App {
-    position: absolute;
     display: flex;
     text-align: center;
     background: linear-gradient(to  left, #003366, #0099FF);
-    width: 50%;
+    width: 100%;
     border: none;
-    border-radius: 40px;
-    margin-top: -12vh;
-    margin-left: 40%;
+    margin-left:0;
     z-index: 1000;
 }
 
@@ -48,31 +46,6 @@
     cursor: pointer;
 }
 
-.fish {
-    position: absolute;
-    left: 33%;
-    top: 37px;
-    width: 30px;
-    height: 30px;
-    cursor: auto;
-}
-.starfish{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    left: 47%;
-    top: 37px;
-    cursor: auto;
-}
-.moss{
-    position: absolute;
-    width: 30px;
-    cursor: auto;
-    height: 30px;
-    left: 71%;
-    top: 37px;
-}
-
 .img-ocean{
     width: 100vh;
     height: 20vh;
@@ -80,7 +53,6 @@
     border:none;
     z-index: -10000;
     margin-left: 1.5%;
-    background-image: url("./../icons/daire.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
