@@ -1,0 +1,37 @@
+.scroll-container-omurgasiz {
+    height: 600px;
+    margin-top:1vh;
+    background-color: #C0392B;
+    border-radius: 90% 20% 70% 40% / 30% 10% 90% 10%;
+
+}
+
+.arka-omurgasiz {
+    position: relative;
+    overflow: hidden;
+    width: 30%;
+    margin-left:140vh;
+    height: 600px;
+    transition: transform 0.1s ease;
+}
+
+.image-aquarium {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s ease;
+    max-height: 600px;
+}
+.omurgasiz-text{
+    margin-top:-50vh;
+    margin-left:100px;
+    display: flex;
+    padding:10px;
+    width:120vh;
+}
+.omurgasiz-p{
+    font-size: 1.2rem;
+    color: white;
+    font-family: "Times New Roman", sans-serif;
+    text-align: center;
+    line-height: 1.5;
+ }

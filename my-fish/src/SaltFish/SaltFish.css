@@ -1,0 +1,8 @@
+.main-salt{
+    position:absolute;
+    display:flex;
+    background: linear-gradient(to bottom, #000000, #06256c, #ffffff);
+    height:100%;
+    width:100%;
+
+}

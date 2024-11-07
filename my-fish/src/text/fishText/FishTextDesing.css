@@ -1,0 +1,40 @@
+.fish-text{
+    margin-top:-4.9%;
+}
+
+
+.scroll-container {
+    height: 600px;
+    margin-top:10vh;
+    background-color: #06256c;
+    border-radius:100% 20% 50% 30% / 100% 20% 50% 90%;
+}
+
+.arka {
+    position: relative;
+    overflow: hidden;
+    width: 30%;
+    height: 600px;
+    transition: transform 0.1s ease;
+}
+
+.image-aquarium {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s ease;
+    max-height: 600px;
+}
+.text{
+    margin-top:-55vh;
+    margin-left:60vh;
+    display: flex;
+    padding:20px;
+
+}
+.fishcare-text {
+    font-size: 1.2rem;
+    color: white;
+    font-family: "Times New Roman", sans-serif;
+    text-align: center;
+    line-height: 1.5;
+}

@@ -1,0 +1,41 @@
+.scroll-container-bitki {
+    height: 600px;
+    margin-top:1vh;
+    background-color: #2E8B57;
+    border-radius: 80% 10% 50% 30% / 20% 60% 40% 80%;
+}
+
+.arka-bitki {
+    position: relative;
+    overflow: hidden;
+    width: 32%;
+    border-radius:30%;
+    margin-top:10px;
+    margin-left:8vh;
+    height: 600px;
+    transition: transform 0.1s ease;
+}
+
+.image-aquariumA {
+    width: 80%;
+    height: auto;
+    border-radius:50%;
+    transition: transform 0.2s ease;
+    max-height: 600px;
+    margin-left:20px;
+    margin-top:20px;
+}
+.bitki-text{
+    margin-top:-50vh;
+    margin-left:70vh;
+    display: flex;
+    padding:10px;
+    width:120vh;
+}
+.bitki-p{
+    font-size: 1.2rem;
+    color: white;
+    font-family: "Times New Roman", sans-serif;
+    text-align: center;
+    line-height: 1.5;
+}
