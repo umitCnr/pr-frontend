@@ -35,8 +35,8 @@ const OmurgasizPageText = ()=>{
         const centerX = left + width / 2;
         const centerY = top + height / 2;
 
-        const rotateX = (clientY - centerY) / height * -10;
-        const rotateY = (clientX - centerX) / width * 10;
+        const rotateX = (clientY - centerY) / height * -30;
+        const rotateY = (clientX - centerX) / width * 30;
 
         setTilt({ rotateX, rotateY });
     };

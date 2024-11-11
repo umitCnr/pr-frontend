@@ -38,3 +38,9 @@
     text-align: center;
     line-height: 1.5;
 }
+
+@media (max-width: 1680px) {
+    .fish-text{
+
+    }
+}

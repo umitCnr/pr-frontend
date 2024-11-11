@@ -1,6 +1,5 @@
 .main-app{
     background-color: #FFFFF0;
-    margin-top: 0;
 
 }
 .App {
@@ -79,35 +78,43 @@
 }
 
 .link-item {
-    display: inline-block; /* İç içe geçmesini engellemek için */
-    color: white; /* Yazı rengi */
-    text-decoration: none; /* Alt çizgiyi kaldır */
-    border-radius: 10px; /* Kenarları yuvarlak yap */
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
     transition: background-color 0.3s ease, transform 0.3s ease;
     padding: 4px;
     margin:2px;
     font-size: 17px;
+    font-weight: 500;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 }
 
 .link-item:hover {
-    transform: scale(1.05); /* Biraz büyüme efekti */
-    text-decoration: underline;
+    background: #666666;
+    color: #f0f0f0;
+    transform: translateY(-2px);
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
 }
 
 
-.main-item{
+.main-item {
     position: absolute;
-    background-color: black;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(135deg, #1a1a1a, #333333);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
     list-style-type: none;
     padding: 0;
-    top:0;
+    top: 0;
     margin: 60px -10px;
-    width: 100px;
-    border-radius:5px;
+    width: 120px;
+    border-radius: 8px;
     z-index: 1;
-    animation: slide-down 1s ease;
-
+    animation: slide-down 0.5s ease;
+    overflow: hidden;
 }
 
 .item{
@@ -127,16 +134,17 @@
 .bir,.iki,.uc{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     font-weight:bold;
+    margin-top:30px;
 }
 
 .fish {
     opacity: 1;
-    transition: opacity 0.3s ease; /* Opaklık değişimi */
+    transition: opacity 0.3s ease;
 }
 
 .bir:hover .fish {
-    opacity: 0; /* Hover sırasında öğe yavaşça şeffaflaşır */
-    pointer-events: none; /* Öğe gizlendikten sonra tıklanamaz olur */
+    opacity: 0;
+    pointer-events: none;
 }
 
 @keyframes slide-down {
